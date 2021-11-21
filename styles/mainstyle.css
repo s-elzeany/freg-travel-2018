@@ -1,0 +1,596 @@
+.invoice-preview__body {
+  margin: 35px auto;
+  width: 820px;
+  box-shadow: 0 2px 8px rgba(0,0,0,.2);
+}
+.la-template {
+    font-size: 14px;
+    position: relative;
+    padding: 16px;
+    min-height: 1024px;
+    box-sizing: border-box;
+    border: 1px solid #dee1e2;
+    background: #fff;
+}
+.la-template__header {
+    display: flex;
+    margin: 25px 60px 0;
+    justify-content: space-between;
+
+}
+.la-template__header__logo img {
+    max-height: 200px;
+    max-width: 300px;
+}
+.la-template__header__info {
+    text-align: right;
+    width: 442px;
+}
+.la-template, .la-template .fg-heading--subtitle, .la-template .fg-heading--title, .la-template .fg-table__cell, .la-template .fg-table__cell--amount, .la-template .fg-text, .la-template .fg-text--strong {
+    font-family: Helvetica,Arial,sans-serif;
+}
+.la-template .address {
+    margin-top: 10px;
+}
+
+.fg-heading--title, .fg-heading--title--display {
+    font-size: 33px;
+    line-height: 40px;
+    font-weight: 500;
+}
+.fg-heading--title, .fg-heading--subtitle, .fg-heading--section-title, .fg-heading--subsection-title, .fg-heading--title--display, .fg-heading--section-title--display, .fg-form-legend, .fg-nav--tertiary .fg-nav__heading, .fg-card--integration .fg-card--integration__content__name {
+    display: block;
+    margin: 32px 0 16px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+    color: #1c252c;
+}
+.la-template .fg-heading--title {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 36px;
+    font-weight: 300;
+}
+.fg-text--strong {
+    font-weight: 700;
+}
+.la-template .address__field .fg-text {
+    line-height: 16px;
+}
+.la-template .fg-table, .la-template .fg-text {
+    font-size: 14px;
+}
+
+.fg-text, .fg-text--display, .fg-text--body {
+    margin: 16px 0;
+}
+.fg-text--code, .fg-text, .fg-text--display, .fg-text--body, .fg-list--plain--vertical, .fg-list--plain--horizontal, .fg-nav--secondary .fg-nav__section, .fg-nav--secondary--horizontal .fg-nav__section, .fg-nav--tertiary .fg-nav__section, .fg-list, .fg-list--bulleted, .fg-list--numbered, .fg-list--alpha, .fg-list--icon, .fg-button--google, .fg-button--yahoo, .fg-button--facebook, .fg-button--submit, .fg-button--primary, .fg-button--danger, .fg-button, .fg-button--secondary, .fg-button--secondary--danger, .is-current .fg-workflow__task__action, .is-complete .fg-workflow__task__action, .fg-pagination__control, .fg-card--integration .fg-card--integration__cta__button, .fg-card--integration .fg-card--integration__cta__button--secondary, .fg-button--link, .fg-input, .fg-input--prefixed, .fg-input--prefixed--wide, .fg-input--suffixed, .fg-input--suffixed--wide, .fg-textarea, .fg-checkbox .fg-form-field__label, .fg-radio .fg-form-field__label, .fg-toggle__label, .fg-datepicker__panel, .fg-select__input, .fg-select__menu, .fg-select__footer, .fg-form-field__label, .fg-form-field__label--align-top, .fg-form-field__read-only, .fg-table, .fg-table--fixed-width, .fg-table--skeleton, .fg-table--plain, .fg-table--condensed, .fg-dropdown__menu, .fg-dropdown__menu--right, .fg-notify__content, .fg-topbar__menu-toggle__label, .fg-topbar--app .fg-topbar__business-name, .fg-box__content {
+    font-size: 16px;
+    line-height: 24px;
+}
+.fg-text, .fg-text--display, .fg-text--body, .fg-text--reverse, body, .fg-list--plain--vertical, .fg-list--plain--horizontal, .fg-nav--secondary .fg-nav__section, .fg-nav--secondary--horizontal .fg-nav__section, .fg-nav--tertiary .fg-nav__section, .fg-list, .fg-list--bulleted, .fg-list--numbered, .fg-list--alpha, .fg-list--icon, .fg-tag, .fg-input, .fg-input--prefixed, .fg-input--prefixed--wide, .fg-input--suffixed, .fg-input--suffixed--wide, .fg-textarea, .fg-input--signature::placeholder, .fg-checkbox .fg-form-field__label, .fg-radio .fg-form-field__label, .fg-toggle__label, .fg-datepicker__day, .fg-select__input, .fg-form-field__label, .fg-form-field__label--align-top, .fg-form-field__read-only, .fg-table, .fg-table--fixed-width, .fg-table--skeleton, .fg-table--plain, .fg-table--condensed, .fg-tooltip, .fg-tooltip--top, .fg-tooltip--left, .fg-tooltip--bottom, .fg-tooltip--right, .fg-modal, .fg-modal--danger, .fg-nav__menu--apps .fg-nav__menu__item__label, .fg-business-switcher__panel__header__title {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+    color: #1c252c;
+    font-weight: 400;
+}
+
+.la-template__divider--full-width .fg-divider {
+    margin-left: -16px;
+    margin-right: -16px;
+}
+.fg-divider, .fg-divider--whitespace {
+    display: block;
+    height: 0;
+    padding: 0;
+    border: none;
+    border-bottom: 1px solid #e0e7eb;
+    overflow: hidden;
+    margin: 24px auto;
+}
+.la-template__metadata {
+    margin-left: 14px;
+    display: flex;
+}
+.la-template__metadata__customer {
+    flex-grow: 1;
+    display: flex;
+}
+.la-template__metadata__customer__wrapper {
+    display: flex;
+}
+.la-template__metadata__customer--billing {
+    flex-grow: 1;
+    padding-right: 10px;
+}
+.fg-text--block-label, .fg-dropdown__menu__header, .fg-dropdown__menu__head, .fg-nav--tertiary .fg-nav__title, .fg-box__header__title, .fg-text--fine-print, .fg-divider--options, .fg-divider--options--fluid, .fg-progress__label, .fg-table__cell--nested {
+    color: #687578;
+}
+.fg-text--block-label, .fg-dropdown__menu__header, .fg-dropdown__menu__head, .fg-nav--tertiary .fg-nav__title, .fg-box__header__title {
+    font-weight: 500;
+}
+.fg-text--hint, .fg-form-field__hint, .fg-card--integration .fg-card--integration__status, .fg-text--block-label, .fg-dropdown__menu__header, .fg-dropdown__menu__head, .fg-nav--tertiary .fg-nav__title, .fg-box__header__title, .fg-text--fine-print, .fg-divider--options, .fg-divider--options--fluid, .fg-progress__label, .fg-table__cell--nested, .fg-text.fg-text--small, .fg-text--link--small, .fg-text--hint .fg-text--link, .fg-text--fine-print .fg-text--link, .fg-button--small, .fg-button-group>.fg-button-group__button, .fg-nav__promo .fg-nav__promo__button, .fg-button--link--small, .fg-tag, .fg-input__message, .fg-datepicker__filters .fg-dropdown__menu .fg-dropdown__menu__link, .fg-form-field.is-floating>.fg-form-field__wrapper>.fg-form-field__label [class^="fg-icon"], .fg-tooltip, .fg-tooltip--top, .fg-tooltip--left, .fg-tooltip--bottom, .fg-tooltip--right, .fg-notify--small .fg-notify__content-wrapper, .fg-notify--small .fg-notify__content-wrapper .fg-notify__content, .fg-wizard__task__title, .fg-nav__menu--extras .fg-nav__menu__item__label, .fg-business-switcher__toggle__info__user, .fg-business-switcher__context-menu__item__link, .fg-footer--app .fg-footer__links__link, .fg-card--integration .fg-card--integration__content__description {
+    font-size: 14px;
+    line-height: 21px;
+}
+.la-template__metadata .invoice-template-details {
+    margin-top: -5px;
+}
+.fg-table, .fg-table--fixed-width, .fg-table--skeleton, .fg-table--plain, .fg-table--condensed {
+    width: 100%;
+    border-collapse: collapse;
+}
+table {
+    display: table;
+    border-spacing: 2px;
+    border-color: grey;
+}
+.la-template .fg-table__row {
+    border-bottom: inherit;
+}
+.fg-table--plain .fg-table__row, .fg-table--plain .fg-table__row--total {
+    border-width: 0;
+}
+.fg-table__row, .fg-table__row--total {
+    border-bottom: 1px solid #e0e7eb;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+.la-template__metadata .invoice-template-details .fg-table__cell:first-child {
+    text-align: right;
+}
+
+.la-template__metadata .invoice-template-details .fg-table__cell {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.la-template .fg-table__cell:first-child {
+    padding-left: 30px;
+}
+.la-template .fg-table__cell {
+    padding-left: 15px;
+    padding-right: 15px;
+    vertical-align: top;
+    word-break: break-word;
+}
+.la-template .fg-table__cell, .la-template .fg-table__cell--amount, .la-template .fg-text, .la-template .fg-text--strong {
+    font-size: 14px;
+}
+
+.fg-table--plain .fg-table__cell, .fg-table--plain .fg-table__cell--amount, .fg-table--plain .fg-table__cell--grandtotal, .fg-table--plain .fg-table__cell--subgroup, .fg-table--plain .fg-table__cell--actions {
+    padding: 8px 15px;
+}
+.fg-table__cell, .fg-table__cell--amount, .fg-table__cell--grandtotal, .fg-table__cell--subgroup, .fg-table__cell--actions {
+    padding: 12px 15px;
+    text-align: left;
+}
+
+td, th {
+    display: table-cell;
+    vertical-align: inherit;
+}
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+.la-template__items {
+    margin-top: 26px;
+    margin-right: -16px;
+    margin-left: -16px;
+}
+thead {
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+.fg-table__header .fg-table__row:last-child {
+    border-color: #b2c2cd;
+}
+
+
+.la-template .fg-table__cell:first-child {
+    padding-left: 30px;
+}
+.la-template .fg-table__header .fg-table__cell, .la-template .fg-table__header .fg-table__cell--amount {
+    text-transform: inherit;
+    font-weight: 600;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #fff;
+}
+
+p {
+    margin-bottom: 1.75rem;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+user agent stylesheet
+p {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+.la-template__items .no-items-message, .la-template__items__column--center {
+    text-align: center;
+}
+.fg-table__cell--amount {
+    text-align: right;
+}
+.fg-table__header .fg-table__row {
+    border-width: 2px;
+}
+.la-template .fg-table__cell--amount:last-child {
+    padding-right: 30px;
+}
+.la-template .fg-table__cell--amount {
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 125px;
+    vertical-align: top;
+}
+.la-template__divider--bold .fg-divider {
+    border-width: 3px;
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+.la-template__totals {
+    display: flex;
+    margin-bottom: 35px;
+    margin-left: -16px;
+    margin-right: -16px;
+}
+.la-template__totals__blank {
+    flex-grow: 5;
+}
+.la-template__totals__amounts {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    margin-right: 30px;
+}
+.la-template__totals__amounts__line {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.la-template__totals__amounts__line__amount {
+    margin-left: 30px;
+    min-width: 125px;
+}
+.la-template__memo {
+    margin: 0 14px 35px;
+    white-space: pre-line;
+    word-wrap: break-word;
+}
+.setColor{
+    color:#000;
+}
+.setColor:hover{
+    color:#007bff;
+}
+a:-webkit-any-link {
+    cursor: pointer;
+}
+
+
+
+
+.invoice-add-info__content {
+    display: flex;
+    justify-content: space-between;
+}
+.invoice-add-info__content {
+    padding: 16px;
+    border-top: 1px solid #dee1e2;
+    background: #fff;
+}
+.invoice-add-info__content__logo {
+    min-width: 300px;
+    min-height: 200px;
+}
+.invoice-add-info__content__info {
+    text-align: right;
+}
+.invoice-add-info__content__info__invoice .form-control:first-child {
+    font-size: 30px;
+    padding: 0 8px;
+    line-height: normal;
+}
+.invoice-add-info__content__info__invoice .fg-input {
+    text-align: right;
+    max-width: 430px;
+}
+.fg-input.fg-input--large {
+    width: 480px;
+}
+.fg-input, .fg-input.fg-input--medium {
+    width: 320px;
+}
+.fg-input {
+    display: inline-block;
+    box-sizing: border-box;
+    margin: 4px 0;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    outline: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: 1px solid #b2c2cd;
+    border-radius: 4px;
+    cursor: text;
+    padding: 8px 10px;
+    transition: border .1s linear;
+    min-height: 42px;
+}
+.invoice-add-info__content__info__business {
+    margin-top: 12px;
+}
+.invoice-add__body__top-form__customer {
+    width: 61%;
+    margin-left: 40px;
+}
+.invoice-add__body__top-form {
+    display: flex;
+    justify-content: space-between;
+}
+.invoice-add__body__top-form__padding {
+    width: 15px;
+}
+.invoice-metadata .fg-form--horizontal {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.fg-form--horizontal .fg-form-field {
+    margin-bottom: 8px;
+}
+.invoice-metadata .fg-form--horizontal .fg-form-field__label {
+    width: 42%;
+    line-height: 2.7;
+}
+.fg-form-field__label__text {
+    display: inline-block;
+}
+.invoice-metadata .fg-form--horizontal .fg-form-field__element {
+    width: 55%;
+}
+.fg-form--horizontal .fg-form-field__element {
+    vertical-align: top;
+    width: 65%;
+    float: right;
+    display: inline-block;
+    text-align: left;
+}
+.fg-form-field__element {
+    box-sizing: border-box;
+}
+.invoice-add__body__items {
+    margin-top: 10px;
+    position: relative;
+}
+
+.invoice-item-table .fg-table__header .fg-table__cell, .invoice-item-table .fg-table__header .fg-table__cell--amount {
+    padding-left: 4px;
+    padding-right: 4px;
+}
+.invoice-item-table .fg-table__cell, .invoice-item-table .fg-table__cell--amount {
+    overflow: visible!important;
+    position: relative;
+    background-color: inherit;
+}
+.fg-table__header .fg-table__cell, .fg-table__header .fg-table__cell--amount, .fg-table__header .fg-table__cell--grandtotal, .fg-table__header .fg-table__cell--subgroup, .fg-table__header .fg-table__cell--actions {
+    padding-top: 20px;
+    padding-bottom: 8px;
+    font-weight: 700;
+    line-height: 19px;
+}
+.invoice-item-table .fg-table__header .fg-table__row {
+    background: #ecf0f3;
+}
+.invoice-add-totals__totals {
+    display: flex;
+    margin: 16px 0;
+    justify-content: flex-end;
+}
+.invoice-add-totals__totals__amounts {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    margin-right: 28px;
+}
+.invoice-add-totals__totals__amounts__line {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    line-height: 40px;
+}
+.invoice-add-totals__totals__amounts__line__label {
+    max-width: 500px;
+}
+.invoice-add-totals__totals__amounts__line__amount {
+    line-height: 20px;
+    margin-left: 1px;
+    overflow-wrap: break-word;
+    width: 143px;
+}
+.invoice-add-totals__totals__amounts__line__label__currency-select {
+    text-align: left;
+    display: inline-block;
+    margin-left: 10px;
+}
+.invoice-add-totals__totals__amounts__line__label__currency-select .fg-select {
+    width: 240px;
+}
+.fg-select, .fg-select.fg-select--medium {
+    width: 320px;
+}
+.fg-select {
+    position: relative;
+    border-radius: 4px;
+    outline: none;
+    margin: 4px 0;
+    display: inline-block;
+}
+.has-selection .fg-select__input {
+    color: #1c252c;
+    font-style: normal;
+}
+.fg-select__input {
+    display: inline-block;
+    box-sizing: border-box;
+    margin: 4px 0;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    outline: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: 1px solid #b2c2cd;
+    border-radius: 4px;
+    cursor: text;
+    padding: 8px 10px;
+    transition: border .1s linear;
+    min-height: 42px;
+    width: 100%;
+    box-shadow: none;
+    position: relative;
+    cursor: pointer;
+    color: #c6cccd;
+    font-style: italic;
+    padding-right: 26px;
+    background: white;
+    margin: 0;
+}
+.has-selection .fg-select__label {
+    color: #1c252c;
+}
+
+.fg-select__label {
+    display: inline-block;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    vertical-align: bottom;
+
+}
+.invoice-memo {
+    border-width: 1px 2px 2px;
+    border-style: solid;
+    border-color: #fff;
+    border-top-color: #dee1e2;
+    margin-top: -2px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    padding: 16px;
+    background: #fff;
+}
+.invoice-memo .fg-textarea, .invoice-memo .fg-textarea:focus {
+    border: none;
+    box-shadow: none;
+}
+.invoice-memo .fg-textarea {
+    padding: 1px;
+    padding-left: 20px;
+    padding-top: 10px;
+    width: 100%;
+}
+.fg-textarea.fg-textarea--large {
+    width: 480px;
+}
+.fg-textarea, .fg-textarea.fg-textarea--medium {
+    width: 320px;
+}
+.fg-textarea {
+    display: inline-block;
+    box-sizing: border-box;
+    margin: 4px 0;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    outline: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: 1px solid #b2c2cd;
+    border-radius: 4px;
+    cursor: text;
+    padding: 8px 10px;
+    transition: border .1s linear;
+    min-height: 42px;
+    resize: none;
+}
+.fg-text, .fg-text--display, .fg-text--body {
+    margin: 16px 0;
+}
+.fg-header__actions, .fg-box__header__actions {
+    -webkit-flex-shrink: 0;
+    flex-shrink: 0;
+    padding-left: 40px;
+    float: right;
+}
+.add-button-float{
+  margin-left: auto;
+}
+.text-center {
+    text-align: left!important;
+}
+*[contenteditable]:hover, *[contenteditable]:focus, td:hover *[contenteditable], td:focus *[contenteditable], img.hover {
+    background: #DEF;
+    box-shadow: 0 0 1em 0.5em #DEF;
+}
+*[contenteditable] {
+    cursor: pointer;
+}
+*[contenteditable] {
+    border-radius: 0.25em;
+    min-width: 1em;
+    outline: 0;
+}
+
+page {
+  background: white;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 0.5cm;
+  box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+}
+page[size="A4"] {
+  width: 21.59cm;
+  height: 27.94cm;
+}
+page[size="A4"][layout="portrait"] {
+  width: 29.7cm;
+  height: 21cm;
+}
+page[size="A3"] {
+  width: 29.7cm;
+  height: 42cm;
+}
+page[size="A3"][layout="portrait"] {
+  width: 42cm;
+  height: 29.7cm;
+}
+page[size="A5"] {
+  width: 14.8cm;
+  height: 21cm;
+}
+page[size="A5"][layout="portrait"] {
+  width: 21cm;
+  height: 14.8cm;
+}
