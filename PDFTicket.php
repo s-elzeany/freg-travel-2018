@@ -5,7 +5,7 @@ if($_SESSION['user'] =="FregataUser1" || $_SESSION['user'] =="FregataUser2" || $
   #clearbtn{ visibility:hidden;}
   #clearTD{ visibility:hidden;}
   </style>";
-}elseif($_SESSION['user'] =="LeaAngelyne"){
+}elseif($_SESSION['user'] =="BlueSho"){
 
 }
 else{
@@ -175,126 +175,126 @@ else{
                         <P class="p1 ft2"  contenteditable="true" id="ticketName"></P>
 
                         <TABLE cellpadding=0 cellspacing=0 class="t0">
-                          <TR>
-                            <TD class="tr0 td0"><P class="p2 ft3" contenteditable="true">RESERVATION CODE</P></TD>
-                            <TD class="tr0 td1"><P class="p3 ft3" contenteditable="true" id="ticketResCode" ></P></TD>
-                          </TR>
-                          <TR>
-                            <TD class="tr1 td2"><P class="p2 ft3" contenteditable="true">ISSUE DATE</P></TD>
-                            <TD class="tr1 td3"><P class="p3 ft3"  contenteditable="true"></P></TD>
-                          </TR>
-                          <TR>
-                            <TD class="tr2 td2"><P class="p2 ft3" contenteditable="true">TICKET NUMBER</P></TD>
-                            <TD class="tr2 td3"><P class="p3 ft3"  contenteditable="true"></P></TD>
-                          </TR>
-                          <TR>
-                            <TD class="tr1 td2"><P class="p2 ft3" contenteditable="true">ISSUING AIRLINE</P></TD>
-                            <TD class="tr1 td3"><P class="p3 ft3"  contenteditable="true"></P></TD>
-                          </TR>
-                          <TR>
-                            <TD class="tr2 td2"><P class="p2 ft3" contenteditable="true">ISSUING AGENT</P></TD>
-                            <TD class="tr2 td3"><P class="p3 ft3"  contenteditable="true"></P></TD>
-                          </TR>
-                          <TR>
-                            <TD class="tr2 td2"><P class="p2 ft3" contenteditable="true">IATA NUMBER</P></TD>
-                            <TD class="tr2 td3"><P class="p3 ft3"  contenteditable="true"></P></TD>
-                          </TR>
-                          <TR>
-                            <TD class="tr3 td4"><P class="p4 ft4"></P></TD>
-                            <TD class="tr3 td5"><P class="p4 ft4"></P></TD>
-                          </TR>
+                          <tr>
+                            <td class="tr0 td0"><P class="p2 ft3" contenteditable="true">RESERVATION CODE</P></td>
+                            <td class="tr0 td1"><P class="p3 ft3" contenteditable="true" id="ticketResCode" ></P></td>
+                          </tr>
+                          <tr>
+                            <td class="tr1 td2"><P class="p2 ft3" contenteditable="true">ISSUE DATE</P></td>
+                            <td class="tr1 td3"><P class="p3 ft3"  contenteditable="true"></P></td>
+                          </tr>
+                          <tr>
+                            <td class="tr2 td2"><P class="p2 ft3" contenteditable="true">TICKET NUMBER</P></td>
+                            <td class="tr2 td3"><P class="p3 ft3"  contenteditable="true"></P></td>
+                          </tr>
+                          <tr>
+                            <td class="tr1 td2"><P class="p2 ft3" contenteditable="true">ISSUING AIRLINE</P></td>
+                            <td class="tr1 td3"><P class="p3 ft3"  contenteditable="true"></P></td>
+                          </tr>
+                          <tr>
+                            <td class="tr2 td2"><P class="p2 ft3" contenteditable="true">ISSUING AGENT</P></td>
+                            <td class="tr2 td3"><P class="p3 ft3"  contenteditable="true"></P></td>
+                          </tr>
+                          <tr>
+                            <td class="tr2 td2"><P class="p2 ft3" contenteditable="true">IATA NUMBER</P></td>
+                            <td class="tr2 td3"><P class="p3 ft3"  contenteditable="true"></P></td>
+                          </tr>
+                          <tr>
+                            <td class="tr3 td4"><P class="p4 ft4"></P></td>
+                            <td class="tr3 td5"><P class="p4 ft4"></P></td>
+                          </tr>
                         </TABLE>
                         <P class="p5 ft5">Itinerary Details</P>
                         <a href="javascript:void(0);" style="font-size:18px;" id="addMoreItinerary" title="Add More Itinerary"><i style=" margin-right:30px;" class="fas fa-plus pull-right"></i></a>
                         <TABLE cellpadding=0 cellspacing=0 class="t1" id="wholeItinerary">
-                          <TR>
-                            <TD class="tr4 td6"><P class="p27 ft3">TRAVEL <br> DATE </P></TD>
-                            <TD class="tr4 td7"><P class="p7 ft3">AIRLINE</P></TD>
-                            <TD class="tr4 td8"><P class="p7 ft3">DEPARTURE</P></TD>
-                            <TD class="tr4 td7"><P class="p7 ft3">ARRIVAL</P></TD>
-                            <TD class="tr4 td9"><P class="p8 ft3">OTHER NOTES</P></TD>
-                          </TR>
-                          <TR>
-                            <TD class="tr5 td10"><P class="p4 ft6"></P></TD>
-                            <TD class="tr5 td11"><P class="p4 ft6"></P></TD>
-                            <TD class="tr5 td12"><P class="p4 ft6"></P></TD>
-                            <TD class="tr5 td11"><P class="p4 ft6"></P></TD>
-                            <TD class="tr5 td13"><P class="p4 ft6"></P></TD>
-                          </TR>
+                          <tr>
+                            <td class="tr4 td6"><P class="p27 ft3">TRAVEL <br> DATE </P></td>
+                            <td class="tr4 td7"><P class="p7 ft3">AIRLINE</P></td>
+                            <td class="tr4 td8"><P class="p7 ft3">DEPARTURE</P></td>
+                            <td class="tr4 td7"><P class="p7 ft3">ARRIVAL</P></td>
+                            <td class="tr4 td9"><P class="p8 ft3">OTHER NOTES</P></td>
+                          </tr>
+                          <tr>
+                            <td class="tr5 td10"><P class="p4 ft6"></P></td>
+                            <td class="tr5 td11"><P class="p4 ft6"></P></td>
+                            <td class="tr5 td12"><P class="p4 ft6"></P></td>
+                            <td class="tr5 td11"><P class="p4 ft6"></P></td>
+                            <td class="tr5 td13"><P class="p4 ft6"></P></td>
+                          </tr>
                           <tbody id="ItineraryTB">
 
-                            <TR>
-                              <TD class="tr0 td14"><P class="p9 ft7"  contenteditable="true"></P></TD>
-                              <TD class="tr0 td15"><P class="p6 ft8"  contenteditable="true"></P></TD>
-                              <TD class="tr0 td16"><P class="p10 ft8"  contenteditable="true"></P></TD>
-                              <TD class="tr0 td15"><P class="p6 ft8"  contenteditable="true"></P></TD>
-                              <TD class="tr0 td17"><P class="p10 ft8"  contenteditable="true"></P></TD>
-                            </TR>
-                            <TR>
-                              <TD class="tr6 td14"><P class="p10 ft8"  contenteditable="true"></P></TD>
-                              <TD class="tr6 td15"><P class="p6 ft8"  contenteditable="true"></P></TD>
-                              <TD class="tr6 td16"><P class="p10 ft8"  contenteditable="true"></P></TD>
-                              <TD class="tr6 td15"><P class="p6 ft8"  contenteditable="true"></P></TD>
-                              <TD class="tr6 td17"><P class="p10 ft8"  contenteditable="true"></P></TD>
-                            </TR>
-                            <TR>
-                              <TD class="tr6 td14"><P class="p10 ft8" contenteditable="true"></P></TD>
-                              <TD class="tr6 td15"><P class="p6 ft8" contenteditable="true"></P></TD>
-                              <TD class="tr6 td16"><P class="p10 ft8" contenteditable="true"></P></TD>
-                              <TD class="tr6 td15"><P class="p10 ft8" contenteditable="true"></P></TD>
-                              <TD class="tr6 td17"><P class="p10 ft8" contenteditable="true"></P></TD>
-                            </TR>
-                            <TR>
-                              <TD class="tr3 td14"><P class="p10 ft8" contenteditable="true"></P></TD>
-                              <TD class="tr3 td15"><P class="p10 ft8" contenteditable="true"></P></TD>
-                              <TD class="tr3 td16"><P class="p10 ft8" contenteditable="true"></P></TD>
-                              <TD class="tr3 td15"><P class="p10 ft8" contenteditable="true"></P></TD>
-                              <TD class="tr3 td17"><P class="p10 ft8" contenteditable="true"></P></TD>
-                            </TR>
-                            <TR>
-                              <TD class="tr3 td14"><P class="p10 ft8" contenteditable="true"></P></TD>
-                              <TD class="tr3 td15"><P class="p10 ft8"  contenteditable="true"></P></TD>
-                              <TD rowspan=2 class="tr7 td16"><P class="p10 ft8"  contenteditable="true"></P></TD>
-                              <TD class="tr3 td15"><P class="p10 ft8" contenteditable="true"></P></TD>
-                              <TD class="tr3 td17"><P class="p10 ft8" contenteditable="true"></P></TD>
-                            </TR>
-                            <TR>
-                              <TD class="tr8 td14"><P class="p10 ft8" contenteditable="true"></P></TD>
-                              <TD class="tr8 td15"><P class="p10 ft8" contenteditable="true"></P></TD>
-                              <TD class="tr8 td15"><P class="p10 ft8" contenteditable="true"></P></TD>
-                              <TD rowspan=2 class="tr6 td17"><P class="p10 ft8" contenteditable="true"></P></TD>
-                            </TR>
-                            <TR>
-                              <TD class="tr9 td14"><P class="p10 ft8" contenteditable="true"></P></TD>
-                              <TD class="tr9 td15"><P class="p10 ft8" contenteditable="true"></P></TD>
-                              <TD rowspan=2 class="tr7 td16"><P class="p10 ft8" contenteditable="true"></P></TD>
-                              <TD class="tr9 td15"><P class="p10 ft8" contenteditable="true"></P></TD>
-                            </TR>
-                            <TR>
-                              <TD class="tr10 td14"><P class="p10 ft8" contenteditable="true"></P></TD>
-                              <TD class="tr10 td15"><P class="p10 ft8" contenteditable="true"></P></TD>
-                              <TD class="tr10 td15"><P class="p10 ft8" contenteditable="true"></P></TD>
-                              <TD rowspan=2 class="tr6 td17"><P class="p10 ft8" contenteditable="true"></P></TD>
-                            </TR>
-                            <TR>
-                              <TD class="tr11 td14"><P class="p10 ft8" contenteditable="true"></P></TD>
-                              <TD class="tr11 td15"><P class="p10 ft8" contenteditable="true"></P></TD>
-                              <TD rowspan=2 class="tr7 td16"><P class="p10 ft8" contenteditable="true"></P></TD>
-                              <TD class="tr11 td15"><P class="p10 ft8" contenteditable="true"></P></TD>
-                            </TR>
-                            <TR>
-                              <TD class="tr12 td14"><P class="p10 ft8" contenteditable="true"></P></TD>
-                              <TD class="tr12 td15"><P class="p10 ft8" contenteditable="true"></P></TD>
-                              <TD class="tr12 td15"><P class="p10 ft8" contenteditable="true"></P></TD>
-                              <TD class="tr12 td17"><P class="p10 ft8" contenteditable="true"></P></TD>
-                            </TR>
-                            <TR>
-                              <TD class="tr3 td10"><P class="p10 ft8" contenteditable="true"></P></TD>
-                              <TD class="tr3 td11"><P class="p10 ft8" contenteditable="true"></P></TD>
-                              <TD class="tr3 td12"><P class="p10 ft8" contenteditable="true"></P></TD>
-                              <TD class="tr3 td11"><P class="p10 ft8" contenteditable="true"></P></TD>
-                              <TD class="tr3 td13"><P class="p10 ft8" ><a href="javascript:void(0);" class="remove_itenirary"><i style="font-size:18px; margin-right:10px;" class="fas fa-times"></i></a></P></TD>
-                            </TR>
+                            <tr>
+                              <td class="tr0 td14"><P class="p9 ft7"  contenteditable="true"></P></td>
+                              <td class="tr0 td15"><P class="p6 ft8"  contenteditable="true"></P></td>
+                              <td class="tr0 td16"><P class="p10 ft8"  contenteditable="true"></P></td>
+                              <td class="tr0 td15"><P class="p6 ft8"  contenteditable="true"></P></td>
+                              <td class="tr0 td17"><P class="p10 ft8"  contenteditable="true"></P></td>
+                            </tr>
+                            <tr>
+                              <td class="tr6 td14"><P class="p10 ft8"  contenteditable="true"></P></td>
+                              <td class="tr6 td15"><P class="p6 ft8"  contenteditable="true"></P></td>
+                              <td class="tr6 td16"><P class="p10 ft8"  contenteditable="true"></P></td>
+                              <td class="tr6 td15"><P class="p6 ft8"  contenteditable="true"></P></td>
+                              <td class="tr6 td17"><P class="p10 ft8"  contenteditable="true"></P></td>
+                            </tr>
+                            <tr>
+                              <td class="tr6 td14"><P class="p10 ft8" contenteditable="true"></P></td>
+                              <td class="tr6 td15"><P class="p6 ft8" contenteditable="true"></P></td>
+                              <td class="tr6 td16"><P class="p10 ft8" contenteditable="true"></P></td>
+                              <td class="tr6 td15"><P class="p10 ft8" contenteditable="true"></P></td>
+                              <td class="tr6 td17"><P class="p10 ft8" contenteditable="true"></P></td>
+                            </tr>
+                            <tr>
+                              <td class="tr3 td14"><P class="p10 ft8" contenteditable="true"></P></td>
+                              <td class="tr3 td15"><P class="p10 ft8" contenteditable="true"></P></td>
+                              <td class="tr3 td16"><P class="p10 ft8" contenteditable="true"></P></td>
+                              <td class="tr3 td15"><P class="p10 ft8" contenteditable="true"></P></td>
+                              <td class="tr3 td17"><P class="p10 ft8" contenteditable="true"></P></td>
+                            </tr>
+                            <tr>
+                              <td class="tr3 td14"><P class="p10 ft8" contenteditable="true"></P></td>
+                              <td class="tr3 td15"><P class="p10 ft8"  contenteditable="true"></P></td>
+                              <td rowspan=2 class="tr7 td16"><P class="p10 ft8"  contenteditable="true"></P></td>
+                              <td class="tr3 td15"><P class="p10 ft8" contenteditable="true"></P></td>
+                              <td class="tr3 td17"><P class="p10 ft8" contenteditable="true"></P></td>
+                            </tr>
+                            <tr>
+                              <td class="tr8 td14"><P class="p10 ft8" contenteditable="true"></P></td>
+                              <td class="tr8 td15"><P class="p10 ft8" contenteditable="true"></P></td>
+                              <td class="tr8 td15"><P class="p10 ft8" contenteditable="true"></P></td>
+                              <td rowspan=2 class="tr6 td17"><P class="p10 ft8" contenteditable="true"></P></td>
+                            </tr>
+                            <tr>
+                              <td class="tr9 td14"><P class="p10 ft8" contenteditable="true"></P></td>
+                              <td class="tr9 td15"><P class="p10 ft8" contenteditable="true"></P></td>
+                              <td rowspan=2 class="tr7 td16"><P class="p10 ft8" contenteditable="true"></P></td>
+                              <td class="tr9 td15"><P class="p10 ft8" contenteditable="true"></P></td>
+                            </tr>
+                            <tr>
+                              <td class="tr10 td14"><P class="p10 ft8" contenteditable="true"></P></td>
+                              <td class="tr10 td15"><P class="p10 ft8" contenteditable="true"></P></td>
+                              <td class="tr10 td15"><P class="p10 ft8" contenteditable="true"></P></td>
+                              <td rowspan=2 class="tr6 td17"><P class="p10 ft8" contenteditable="true"></P></td>
+                            </tr>
+                            <tr>
+                              <td class="tr11 td14"><P class="p10 ft8" contenteditable="true"></P></td>
+                              <td class="tr11 td15"><P class="p10 ft8" contenteditable="true"></P></td>
+                              <td rowspan=2 class="tr7 td16"><P class="p10 ft8" contenteditable="true"></P></td>
+                              <td class="tr11 td15"><P class="p10 ft8" contenteditable="true"></P></td>
+                            </tr>
+                            <tr>
+                              <td class="tr12 td14"><P class="p10 ft8" contenteditable="true"></P></td>
+                              <td class="tr12 td15"><P class="p10 ft8" contenteditable="true"></P></td>
+                              <td class="tr12 td15"><P class="p10 ft8" contenteditable="true"></P></td>
+                              <td class="tr12 td17"><P class="p10 ft8" contenteditable="true"></P></td>
+                            </tr>
+                            <tr>
+                              <td class="tr3 td10"><P class="p10 ft8" contenteditable="true"></P></td>
+                              <td class="tr3 td11"><P class="p10 ft8" contenteditable="true"></P></td>
+                              <td class="tr3 td12"><P class="p10 ft8" contenteditable="true"></P></td>
+                              <td class="tr3 td11"><P class="p10 ft8" contenteditable="true"></P></td>
+                              <td class="tr3 td13"><P class="p10 ft8" ><a href="javascript:void(0);" class="remove_itenirary"><i style="font-size:18px; margin-right:10px;" class="fas fa-times"></i></a></P></td>
+                            </tr>
 
                           </tbody>
 
@@ -303,103 +303,103 @@ else{
 
                         <TABLE cellpadding=0 cellspacing=0 class="t2">
                           <a href="javascript:void(0);" style="font-size:18px;" id="addMoreFareDetails" title="Add More Fare Details"><i style=" margin-right:30px;" class="fas fa-plus pull-right"></i></a>
-                          <TR>
-                            <TD class="tr17 td18"><P class="p12 ft7">Form of Payment</P></TD>
-                            <TD class="tr17 td19"><P class="p6 ft20">CASH</P></TD>
-                          </TR>
+                          <tr>
+                            <td class="tr17 td18"><P class="p12 ft7">Form of Payment</P></td>
+                            <td class="tr17 td19"><P class="p6 ft20">CASH</P></td>
+                          </tr>
 
                           <table class="wholetform t3" cellpadding=0 cellspacing=0 >
                             <tbody class="tform">
-                              <TR>
-                                <TD class="tr12 td20"><P class="p4 ft14"></P></TD>
-                                <TD class="tr12 td21"><P class="p4 ft14"></P></TD>
-                              </TR>
-                              <TR>
-                                <TD class="tr17 td22"><P class="p12 ft8" contenteditable="true">Endorsement / Restrictions</P></TD>
-                                <TD class="tr17 td23"><P class="p6 ft21" contenteditable="true"></P></TD>
+                              <tr>
+                                <td class="tr12 td20"><P class="p4 ft14"></P></td>
+                                <td class="tr12 td21"><P class="p4 ft14"></P></td>
+                              </tr>
+                              <tr>
+                                <td class="tr17 td22"><P class="p12 ft8" contenteditable="true">Endorsement / Restrictions</P></td>
+                                <td class="tr17 td23"><P class="p6 ft21" contenteditable="true"></P></td>
                                 <td class="tr17 td24"><a href="javascript:void(0);" class="remove_FDetails"><i style="font-size:18px;" class="fas fa-times"></i></a></td>
-                              </TR>
+                              </tr>
                             </tbody>
                             <tbody class="tform">
-                              <TR>
-                                <TD class="tr12 td20"><P class="p4 ft14"></P></TD>
-                                <TD class="tr12 td21"><P class="p4 ft14"></P></TD>
-                                <TR>
-                                  <TD class="tr17 td22"><P class="p12 ft8" contenteditable="true">Fare Calculation Line</P></TD>
-                                  <TD class="tr17 td23"><P class="p6 ft21" contenteditable="true"></P></TD>
+                              <tr>
+                                <td class="tr12 td20"><P class="p4 ft14"></P></td>
+                                <td class="tr12 td21"><P class="p4 ft14"></P></td>
+                                <tr>
+                                  <td class="tr17 td22"><P class="p12 ft8" contenteditable="true">Fare Calculation Line</P></td>
+                                  <td class="tr17 td23"><P class="p6 ft21" contenteditable="true"></P></td>
                                   <td class="tr17 td24"><a href="javascript:void(0);" class="remove_FDetails"><i style="font-size:18px;" class="fas fa-times"></i></a></td>
-                                </TR>
+                                </tr>
                               </tbody>
                               <tbody class="tform">
-                                <TR>
-                                  <TD class="tr12 td20"><P class="p4 ft14"></P></TD>
-                                  <TD class="tr12 td21"><P class="p4 ft14"></P></TD>
-                                </TR>
-                                <TR>
-                                  <TD class="tr18 td22"><P class="p12 ft7" contenteditable="true">Fare</P></TD>
-                                  <TD class="tr18 td23"><P class="p6 ft20" contenteditable="true">PHP </P></TD>
+                                <tr>
+                                  <td class="tr12 td20"><P class="p4 ft14"></P></td>
+                                  <td class="tr12 td21"><P class="p4 ft14"></P></td>
+                                </tr>
+                                <tr>
+                                  <td class="tr18 td22"><P class="p12 ft7" contenteditable="true">Fare</P></td>
+                                  <td class="tr18 td23"><P class="p6 ft20" contenteditable="true">PHP </P></td>
                                   <td class="tr17 td24"><a href="javascript:void(0);" class="remove_FDetails"><i style="font-size:18px;" class="fas fa-times"></i></a></td>
-                                </TR>
+                                </tr>
                               </tbody>
                               <tbody class="tform">
-                                <TR>
-                                  <TD class="tr16 td20"><P class="p4 ft18"></P></TD>
-                                  <TD class="tr16 td21"><P class="p4 ft18"></P></TD>
-                                </TR>
-                                <TR>
-                                  <TD class="tr18 td22"><P class="p12 ft7" contenteditable="true">Taxes/Fees/Carrier-Imposed Charges</P></TD>
-                                  <TD class="tr18 td23"><P class="p6 ft20" contenteditable="true">PHP </P></TD>
+                                <tr>
+                                  <td class="tr16 td20"><P class="p4 ft18"></P></td>
+                                  <td class="tr16 td21"><P class="p4 ft18"></P></td>
+                                </tr>
+                                <tr>
+                                  <td class="tr18 td22"><P class="p12 ft7" contenteditable="true">Taxes/Fees/Carrier-Imposed Charges</P></td>
+                                  <td class="tr18 td23"><P class="p6 ft20" contenteditable="true">PHP </P></td>
                                   <td class="tr17 td24"><a href="javascript:void(0);" class="remove_FDetails"><i style="font-size:18px;" class="fas fa-times"></i></a></td>
-                                </TR>
+                                </tr>
                               </tbody>
                               <tbody class="tform">
-                                <TR>
-                                  <TD class="tr16 td20"><P class="p4 ft18"></P></TD>
-                                  <TD class="tr16 td21"><P class="p4 ft18"></P></TD>
-                                </TR>
-                                <TR>
-                                  <TD class="tr18 td22"><P class="p12 ft7" contenteditable="true"></P></TD>
-                                  <TD class="tr18 td23"><P class="p6 ft20" contenteditable="true">PHP </P></TD>
+                                <tr>
+                                  <td class="tr16 td20"><P class="p4 ft18"></P></td>
+                                  <td class="tr16 td21"><P class="p4 ft18"></P></td>
+                                </tr>
+                                <tr>
+                                  <td class="tr18 td22"><P class="p12 ft7" contenteditable="true"></P></td>
+                                  <td class="tr18 td23"><P class="p6 ft20" contenteditable="true">PHP </P></td>
                                   <td class="tr17 td24"><a href="javascript:void(0);" class="remove_FDetails"><i style="font-size:18px;" class="fas fa-times"></i></a></td>
-                                </TR>
+                                </tr>
                               </tbody>
                               <tbody class="tform">
-                                <TR>
-                                  <TD class="tr12 td20"><P class="p4 ft14"></P></TD>
-                                  <TD class="tr12 td21"><P class="p4 ft14"></P></TD>
-                                </TR>
-                                <TR>
-                                  <TD class="tr17 td22"><P class="p12 ft7" contenteditable="true"></P></TD>
-                                  <TD class="tr17 td23"><P class="p6 ft20" contenteditable="true">PHP </P></TD>
+                                <tr>
+                                  <td class="tr12 td20"><P class="p4 ft14"></P></td>
+                                  <td class="tr12 td21"><P class="p4 ft14"></P></td>
+                                </tr>
+                                <tr>
+                                  <td class="tr17 td22"><P class="p12 ft7" contenteditable="true"></P></td>
+                                  <td class="tr17 td23"><P class="p6 ft20" contenteditable="true">PHP </P></td>
                                   <td class="tr17 td24"><a href="javascript:void(0);" class="remove_FDetails"><i style="font-size:18px;" class="fas fa-times"></i></a></td>
-                                </TR>
+                                </tr>
                               </tbody>
                               <tbody class="tform">
-                                <TR>
-                                  <TD class="tr12 td20"><P class="p4 ft14"></P></TD>
-                                  <TD class="tr12 td21"><P class="p4 ft14"></P></TD>
-                                </TR>
-                                <TR>
-                                  <TD class="tr17 td22"><P class="p12 ft7" contenteditable="true"></P></TD>
-                                  <TD class="tr17 td23"><P class="p6 ft20" contenteditable="true">PHP </P></TD>
+                                <tr>
+                                  <td class="tr12 td20"><P class="p4 ft14"></P></td>
+                                  <td class="tr12 td21"><P class="p4 ft14"></P></td>
+                                </tr>
+                                <tr>
+                                  <td class="tr17 td22"><P class="p12 ft7" contenteditable="true"></P></td>
+                                  <td class="tr17 td23"><P class="p6 ft20" contenteditable="true">PHP </P></td>
                                   <td class="tr17 td24"><a href="javascript:void(0);" class="remove_FDetails"><i style="font-size:18px;" class="fas fa-times"></i></a></td>
-                                </TR>
+                                </tr>
                               </tbody>
                             </table>
                             <table class="t3" cellpadding=0 cellspacing=0 >
-                              <TR>
-                                <TD class="tr12 td20"><P class="p4 ft14"></P></TD>
-                                <TD class="tr12 td21"><P class="p4 ft14"></P></TD>
-                              </TR>
-                              <TR>
-                                <TD class="tr17 td22"><P class="p12 ft7" contenteditable="true">Total Fare</P></TD>
-                                <TD class="tr17 td23"><P class="p6 ft20" contenteditable="true"  id="ticketDue">PHP </P></TD>
+                              <tr>
+                                <td class="tr12 td20"><P class="p4 ft14"></P></td>
+                                <td class="tr12 td21"><P class="p4 ft14"></P></td>
+                              </tr>
+                              <tr>
+                                <td class="tr17 td22"><P class="p12 ft7" contenteditable="true">Total Fare</P></td>
+                                <td class="tr17 td23"><P class="p6 ft20" contenteditable="true"  id="ticketDue">PHP </P></td>
                                 <td class="tr17 td24"><a href="javascript:void(0);" class="remove_FDetails"><i style="font-size:18px;" class="fas fa-times"></i></a></td>
-                              </TR>
-                              <TR>
-                                <TD class="tr12 td20"><P class="p4 ft14"></P></TD>
-                                <TD class="tr12 td21"><P class="p4 ft14"></P></TD>
-                              </TR>
+                              </tr>
+                              <tr>
+                                <td class="tr12 td20"><P class="p4 ft14"></P></td>
+                                <td class="tr12 td21"><P class="p4 ft14"></P></td>
+                              </tr>
                             </table>
                           </TABLE>
                         </DIV>

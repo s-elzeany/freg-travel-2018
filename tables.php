@@ -6,7 +6,7 @@ session_start();
       #clearTD{ visibility:hidden;}
       #changebtn{ visibility:hidden;}
     </style>";
-  }elseif($_SESSION['user'] =="LeaAngelyne"){
+  }elseif($_SESSION['user'] =="BlueSho"){
 
     }
   else{

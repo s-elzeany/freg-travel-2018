@@ -5,7 +5,7 @@ session_start();
       #clearbtn{ visibility:hidden;}
       #clearTD{ visibility:hidden;}
     </style>";
-  }elseif($_SESSION['user'] =="LeaAngelyne"){
+  }elseif($_SESSION['user'] =="BlueSho"){
 
     }
   else{
@@ -193,12 +193,12 @@ session_start();
     </section>
     <P class="pTitle ft2">STATEMENT OF ACCOUNT</P>
     <TABLE cellpadding=0 cellspacing=0 class="t0">
-    <TR>
-      <TD class="tr0 td0"><P class="p3 ft3">Date:</P></TD>
+    <tr>
+      <td class="tr0 td0"><P class="p3 ft3">Date:</P></td>
       <?php
       $today = date("F j, Y");
         ?>
-      <TD class="tr0 td1"><P class="p3 ft3" contenteditable="true" id="dateToday"><?php echo $today?></P></TD>
+      <td class="tr0 td1"><P class="p3 ft3" contenteditable="true" id="dateToday"><?php echo $today?></P></td>
 
       <?php
       include "connection.php";
@@ -208,26 +208,26 @@ session_start();
         $dbValue = $row['AUTO_INCREMENT'];
       }
         ?>
-      <TD class="tr0 td2"><P class="p3 ft3">Bill no.: <NOBR id="customID"><?php echo "FREG-".str_pad($dbValue, 7, "0", STR_PAD_LEFT); ?></NOBR></P></TD>
+      <td class="tr0 td2"><P class="p3 ft3">Bill no.: <NOBR id="customID"><?php echo "FREG-".str_pad($dbValue, 7, "0", STR_PAD_LEFT); ?></NOBR></P></td>
 
-    </TR>
-    <TR>
+    </tr>
+    <tr>
 
-      <TD style="position:absolute;"><br><P >To:</P></TD>
+      <td style="position:absolute;"><br><P >To:</P></td>
 
-      <TD class="tr1 td1"><br><div class="p3 ft3" contenteditable="true"><div>Urban Ecosystems Research Division (UERD)</div><div>Ecosystems Research and Development Bureau</div><div>Department of Environment and Natural Resources <NOBR>(ERDB-DENR)</NOBR></div><div>College, Laguna</div></div>
-    </TD>
+      <td class="tr1 td1"><br><div class="p3 ft3" contenteditable="true"><div>Urban Ecosystems Research Division (UERD)</div><div>Ecosystems Research and Development Bureau</div><div>Department of Environment and Natural Resources <NOBR>(ERDB-DENR)</NOBR></div><div>College, Laguna</div></div>
+    </td>
 
-    </TR>
-    <TR>
-      <TD class="tr1 td0"><P class="p3 ft3">To Bill You For</P></TD>
-      <TD class="tr1 td1"><div class="p3 ft3" contenteditable="true"></div></TD>
-    </TR>
-    <TR>
+    </tr>
+    <tr>
+      <td class="tr1 td0"><P class="p3 ft3">To Bill You For</P></td>
+      <td class="tr1 td1"><div class="p3 ft3" contenteditable="true"></div></td>
+    </tr>
+    <tr>
 
-      <TD class="tr0 td0"><br><P class="psho ft3">RC Code:</P></TD>
-      <TD class="tr0 td4"><div class="p3 ft4" contenteditable="true"></div></TD>
-    </TR>
+      <td class="tr0 td0"><br><P class="psho ft3">RC Code:</P></td>
+      <td class="tr0 td4"><div class="p3 ft4" contenteditable="true"></div></td>
+    </tr>
     </TABLE>
 
 
@@ -241,50 +241,50 @@ session_start();
       </TABLE>
 
       <TABLE cellpadding=0 cellspacing=0 class="t1">
-    <TR>
-      <TD class="tr5 td3"><P class="p5 ft5">BOOKING FEE:</P></TD>
-      <TD class="tr5 td4"><P class="p3 ft4"> </P></TD>
-      <TD class="tr5 td5"><P class="p3 ft4"> </P></TD>
-      <TD class="tr5 td6"><P class="p3 ft4"> </P></TD>
-      <TD colspan=2 class="tr6 td11"><P class="p6 ft3 base_value" contenteditable="true">0.00</P></TD>
-    </TR>
-    <TR>
-      <TD class="tr2 td3"><P class="p3 ft4"> </P></TD>
-      <TD class="tr2 td4"><P class="p3 ft4"> </P></TD>
-      <TD class="tr2 td5"><P class="p3 ft4"> </P></TD>
-      <TD class="tr2 td6"><P class="p3 ft4"> </P></TD>
-      <TD class="tr2 td7"><P class="p3 ft4"> </P></TD>
-      <TD class="tr2 td8"><span class="p7 ft5">PHP<span class="p7 ft5 semi_total">0</span><span></TD>
-    </TR>
+    <tr>
+      <td class="tr5 td3"><P class="p5 ft5">BOOKING FEE:</P></td>
+      <td class="tr5 td4"><P class="p3 ft4"> </P></td>
+      <td class="tr5 td5"><P class="p3 ft4"> </P></td>
+      <td class="tr5 td6"><P class="p3 ft4"> </P></td>
+      <td colspan=2 class="tr6 td11"><P class="p6 ft3 base_value" contenteditable="true">0.00</P></td>
+    </tr>
+    <tr>
+      <td class="tr2 td3"><P class="p3 ft4"> </P></td>
+      <td class="tr2 td4"><P class="p3 ft4"> </P></td>
+      <td class="tr2 td5"><P class="p3 ft4"> </P></td>
+      <td class="tr2 td6"><P class="p3 ft4"> </P></td>
+      <td class="tr2 td7"><P class="p3 ft4"> </P></td>
+      <td class="tr2 td8"><span class="p7 ft5">PHP<span class="p7 ft5 semi_total">0</span><span></td>
+    </tr>
   </table>
 
 </div>
 </div>
 <TABLE cellpadding=0 cellspacing=0 class="t1">
-  <TR>
-    <TD class="tr5 td3"><P class="p5 ft5">OVERALL TOTAL:</P></TD>
-    <TD class="tr5 td4"><P class="p3 ft4"> </P></TD>
-    <TD class="tr5 td5"><P class="p3 ft4"> </P></TD>
-    <TD class="tr5 td6"><P class="p3 ft4"> </P></TD>
-    <TD class="tr2 td8"><P class="p7 ft5 overall_total">PHP 0</P></TD>
-  </TR>
+  <tr>
+    <td class="tr5 td3"><P class="p5 ft5">OVERALL TOTAL:</P></td>
+    <td class="tr5 td4"><P class="p3 ft4"> </P></td>
+    <td class="tr5 td5"><P class="p3 ft4"> </P></td>
+    <td class="tr5 td6"><P class="p3 ft4"> </P></td>
+    <td class="tr2 td8"><P class="p7 ft5 overall_total">PHP 0</P></td>
+  </tr>
 </table>
 <TABLE cellpadding=0 cellspacing=0 class="t1">
-    <TR>
-      <TD class="tr1 td3"><P class="p4 ft5">GUEST DETAILS:</P></TD>
-      <TD class="tr1 td4"><P class="p3 ft4"> </P></TD>
-      <TD class="tr1 td5"><P class="p3 ft4"> </P></TD>
-      <TD class="tr1 td6"><P class="p3 ft4"> </P></TD>
-      <TD class="tr1 td7"><P class="p3 ft4"> </P></TD>
-      <TD class="tr1 td8"><P class="p3 ft4"> </P></TD>
-    </TR>
-    <TR>
-      <TD colspan=2 class="tr3 td9"><P class="p7 ft3" contenteditable="true"></P></TD>
-      <TD class="tr3 td5"><P class="p3 ft4"> </P></TD>
-      <TD class="tr3 td6"><P class="p3 ft4"> </P></TD>
-      <TD class="tr3 td7"><P class="p3 ft4"> </P></TD>
-      <TD class="tr3 td8"><P class="p3 ft4"> </P></TD>
-    </TR>
+    <tr>
+      <td class="tr1 td3"><P class="p4 ft5">GUEST DETAILS:</P></td>
+      <td class="tr1 td4"><P class="p3 ft4"> </P></td>
+      <td class="tr1 td5"><P class="p3 ft4"> </P></td>
+      <td class="tr1 td6"><P class="p3 ft4"> </P></td>
+      <td class="tr1 td7"><P class="p3 ft4"> </P></td>
+      <td class="tr1 td8"><P class="p3 ft4"> </P></td>
+    </tr>
+    <tr>
+      <td colspan=2 class="tr3 td9"><P class="p7 ft3" contenteditable="true"></P></td>
+      <td class="tr3 td5"><P class="p3 ft4"> </P></td>
+      <td class="tr3 td6"><P class="p3 ft4"> </P></td>
+      <td class="tr3 td7"><P class="p3 ft4"> </P></td>
+      <td class="tr3 td8"><P class="p3 ft4"> </P></td>
+    </tr>
   </table>
 
   <span class = "pull-right">
@@ -295,114 +295,114 @@ session_start();
 <P class="pServ ft5" contenteditable="true">FLIGHT DETAILS:</P>
     <TABLE cellpadding=0 cellspacing=0 class="t1" id="tbF">
 
-    <TR>
-      <TD class="tr2 td18"><P class="p8 ft5">Route</P></TD>
-      <TD class="tr2 td19"><P class="p9 ft5">Airline - Flight</P></TD>
-      <TD class="tr2 td20"><P class="p4 ft5">Date</P></TD>
-      <TD class="tr2 td21"><P class="p10 ft5">Departure</P></TD>
-      <TD class="tr2 td22"><P class="p3 ft4"> </P></TD>
-      <TD class="tr2 td23"><P class="p4 ft5">Arrival</P></TD>
+    <tr>
+      <td class="tr2 td18"><P class="p8 ft5">Route</P></td>
+      <td class="tr2 td19"><P class="p9 ft5">Airline - Flight</P></td>
+      <td class="tr2 td20"><P class="p4 ft5">Date</P></td>
+      <td class="tr2 td21"><P class="p10 ft5">Departure</P></td>
+      <td class="tr2 td22"><P class="p3 ft4"> </P></td>
+      <td class="tr2 td23"><P class="p4 ft5">Arrival</P></td>
 
-    </TR>
-    <TR>
-      <TD class="tr7 td12"><P class="p8 ft6" contenteditable="true"></P></TD>
-      <TD class="tr7 td13"><P class="p9 ft6" contenteditable="true"></P></TD>
-      <TD class="tr7 td14"><P class="p4 ft6" contenteditable="true"></P></TD>
-      <TD class="tr7 td15"><P class="p10 ft6" contenteditable="true"></P></TD>
-      <TD class="tr7 td16"><P class="p3 ft7" ><a href='javascript:void(0);'  class='remove_flight'><i style="font-size:18px" class="fas fa-times"></i></a></P></TD>
-      <TD class="tr7 td17"><P class="p4 ft6" contenteditable="true"></P></TD>
-    </TR>
-    <TR>
-      <TD class="tr7 td12"><P class="p8 ft6" contenteditable="true"></P></TD>
-      <TD class="tr7 td13"><P class="p9 ft6" contenteditable="true"></P></TD>
-      <TD class="tr7 td14"><P class="p4 ft6" contenteditable="true"></P></TD>
-      <TD class="tr7 td15"><P class="p10 ft6" contenteditable="true"></P></TD>
-      <TD class="tr7 td16"><P class="p3 ft7" ><a href='javascript:void(0);'  class='remove_flight'><i style="font-size:18px" class="fas fa-times"></i></a></P></TD>
-      <TD class="tr7 td17"><P class="p4 ft6" contenteditable="true"></P></TD>
-    </TR>
+    </tr>
+    <tr>
+      <td class="tr7 td12"><P class="p8 ft6" contenteditable="true"></P></td>
+      <td class="tr7 td13"><P class="p9 ft6" contenteditable="true"></P></td>
+      <td class="tr7 td14"><P class="p4 ft6" contenteditable="true"></P></td>
+      <td class="tr7 td15"><P class="p10 ft6" contenteditable="true"></P></td>
+      <td class="tr7 td16"><P class="p3 ft7" ><a href='javascript:void(0);'  class='remove_flight'><i style="font-size:18px" class="fas fa-times"></i></a></P></td>
+      <td class="tr7 td17"><P class="p4 ft6" contenteditable="true"></P></td>
+    </tr>
+    <tr>
+      <td class="tr7 td12"><P class="p8 ft6" contenteditable="true"></P></td>
+      <td class="tr7 td13"><P class="p9 ft6" contenteditable="true"></P></td>
+      <td class="tr7 td14"><P class="p4 ft6" contenteditable="true"></P></td>
+      <td class="tr7 td15"><P class="p10 ft6" contenteditable="true"></P></td>
+      <td class="tr7 td16"><P class="p3 ft7" ><a href='javascript:void(0);'  class='remove_flight'><i style="font-size:18px" class="fas fa-times"></i></a></P></td>
+      <td class="tr7 td17"><P class="p4 ft6" contenteditable="true"></P></td>
+    </tr>
     <a href="javascript:void(0);" style="font-size:18px;" id="addMoreFlight" title="Add More Flight details"><i style=" margin-right:60px;" class="fas fa-plus pull-right"></i></a>
     </TABLE>
 
   <span><P class="p11 ft5" contenteditable="true">ADDITIONAL SERVICES:</P> <a href="javascript:void(0);" style="font-size:20px;" id="minusFlightTable" title="Remove Flight Details and Services"> <i style="padding-right:20px;" class="far fa-calendar-minus pull-right"></i></a> </span>
     <TABLE cellpadding=0 cellspacing=0 class="t2">
   <tbody class="outtero">
-    <TR>
-      <TD class="tr7 td24"><P class="p8 ft6" contenteditable="true">ONWARD FLIGHT</P></TD>
-      <TD class="tr7 td25"><P class="p3 ft6">SEAT</P></TD>
-      <TD colspan=2 class="tr7 td26"><P class="p3 ft6">MEALS</P></TD>
-      <TD class="tr7 td27"><P class="p3 ft4"><a href='javascript:void(0);'  class='remove_services'><i style="font-size:18px" class="fas fa-times"></i></a></P></TD>
-      <TD colspan=2 class="tr7 td28"><P class="p3 ft6">BAGGAGE</P></TD>
-    </TR>
-    <TR>
-      <TD class="tr2 td29"><P class="p3 ft4"> </P></TD>
-      <TD class="tr2 td30"><P class="p3 ft4"> </P></TD>
-      <TD class="tr2 td31"><P class="p3 ft4"> </P></TD>
-      <TD class="tr2 td32"><P class="p3 ft4"> </P></TD>
-      <TD class="tr2 td33"><P class="p12 ft3"><NOBR>Check-in</NOBR> Baggage:</P></TD>
-      <TD colspan=2 class="tr2 td34"><P class="p3 ft3" contenteditable="true">20 kg, Pre included Baggage</P></TD>
-    </TR>
-    <TR>
-      <TD class="tr3 td35"><P class="p3 ft4"> </P></TD>
-      <TD class="tr3 td36"><P class="p3 ft3" contenteditable="true">YES</P></TD>
-      <TD colspan=2 class="tr3 td37"><P class="p3 ft3" contenteditable="true">YES</P></TD>
-      <TD class="tr3 td38"><P class="p12 ft3">Hand Baggage:</P></TD>
-      <TD colspan=2 class="tr3 td39"><P class="p3 ft3" contenteditable="true">7 kg</P></TD>
-    </TR>
+    <tr>
+      <td class="tr7 td24"><P class="p8 ft6" contenteditable="true">ONWARD FLIGHT</P></td>
+      <td class="tr7 td25"><P class="p3 ft6">SEAT</P></td>
+      <td colspan=2 class="tr7 td26"><P class="p3 ft6">MEALS</P></td>
+      <td class="tr7 td27"><P class="p3 ft4"><a href='javascript:void(0);'  class='remove_services'><i style="font-size:18px" class="fas fa-times"></i></a></P></td>
+      <td colspan=2 class="tr7 td28"><P class="p3 ft6">BAGGAGE</P></td>
+    </tr>
+    <tr>
+      <td class="tr2 td29"><P class="p3 ft4"> </P></td>
+      <td class="tr2 td30"><P class="p3 ft4"> </P></td>
+      <td class="tr2 td31"><P class="p3 ft4"> </P></td>
+      <td class="tr2 td32"><P class="p3 ft4"> </P></td>
+      <td class="tr2 td33"><P class="p12 ft3"><NOBR>Check-in</NOBR> Baggage:</P></td>
+      <td colspan=2 class="tr2 td34"><P class="p3 ft3" contenteditable="true">20 kg, Pre included Baggage</P></td>
+    </tr>
+    <tr>
+      <td class="tr3 td35"><P class="p3 ft4"> </P></td>
+      <td class="tr3 td36"><P class="p3 ft3" contenteditable="true">YES</P></td>
+      <td colspan=2 class="tr3 td37"><P class="p3 ft3" contenteditable="true">YES</P></td>
+      <td class="tr3 td38"><P class="p12 ft3">Hand Baggage:</P></td>
+      <td colspan=2 class="tr3 td39"><P class="p3 ft3" contenteditable="true">7 kg</P></td>
+    </tr>
   </tbody>
     <tbody class="outtero">
-    <TR>
-      <TD class="tr7 td24"><P class="p8 ft6 " contenteditable="true">RETURN FLIGHT</P></TD>
-      <TD class="tr7 td25"><P class="p3 ft6">SEAT</P></TD>
-      <TD colspan=2 class="tr7 td26"><P class="p3 ft6">MEALS</P></TD>
-      <TD class="tr7 td27"><P class="p3 ft4"><a href='javascript:void(0);'  class='remove_services'><i style="font-size:18px" class="fas fa-times"></a></P></TD>
-      <TD colspan=2 class="tr7 td28"><P class="p3 ft6">BAGGAGE</P></TD>
-    </TR>
-    <TR>
-      <TD class="tr2 td29"><P class="p3 ft4"> </P></TD>
-      <TD class="tr2 td30"><P class="p3 ft4"> </P></TD>
-      <TD class="tr2 td31"><P class="p3 ft4"> </P></TD>
-      <TD class="tr2 td32"><P class="p3 ft4"> </P></TD>
-      <TD class="tr2 td33"><P class="p12 ft3"><NOBR>Check-in</NOBR> Baggage:</P></TD>
-      <TD colspan=2 class="tr2 td34"><P class="p3 ft3" contenteditable="true">20 kg, Pre included Baggage</P></TD>
-    </TR>
-    <TR>
-      <TD class="tr3 td35"><P class="p3 ft4"> </P></TD>
-      <TD class="tr3 td36"><P class="p3 ft3" contenteditable="true">YES</P></TD>
-      <TD colspan=2 class="tr3 td37"><P class="p3 ft3" contenteditable="true">YES</P></TD>
-      <TD class="tr3 td38"><P class="p12 ft3">Hand Baggage:</P></TD>
-      <TD colspan=2 class="tr3 td39"><P class="p3 ft3" contenteditable="true">7 kg</P></TD>
-    </TR>
+    <tr>
+      <td class="tr7 td24"><P class="p8 ft6 " contenteditable="true">RETURN FLIGHT</P></td>
+      <td class="tr7 td25"><P class="p3 ft6">SEAT</P></td>
+      <td colspan=2 class="tr7 td26"><P class="p3 ft6">MEALS</P></td>
+      <td class="tr7 td27"><P class="p3 ft4"><a href='javascript:void(0);'  class='remove_services'><i style="font-size:18px" class="fas fa-times"></a></P></td>
+      <td colspan=2 class="tr7 td28"><P class="p3 ft6">BAGGAGE</P></td>
+    </tr>
+    <tr>
+      <td class="tr2 td29"><P class="p3 ft4"> </P></td>
+      <td class="tr2 td30"><P class="p3 ft4"> </P></td>
+      <td class="tr2 td31"><P class="p3 ft4"> </P></td>
+      <td class="tr2 td32"><P class="p3 ft4"> </P></td>
+      <td class="tr2 td33"><P class="p12 ft3"><NOBR>Check-in</NOBR> Baggage:</P></td>
+      <td colspan=2 class="tr2 td34"><P class="p3 ft3" contenteditable="true">20 kg, Pre included Baggage</P></td>
+    </tr>
+    <tr>
+      <td class="tr3 td35"><P class="p3 ft4"> </P></td>
+      <td class="tr3 td36"><P class="p3 ft3" contenteditable="true">YES</P></td>
+      <td colspan=2 class="tr3 td37"><P class="p3 ft3" contenteditable="true">YES</P></td>
+      <td class="tr3 td38"><P class="p12 ft3">Hand Baggage:</P></td>
+      <td colspan=2 class="tr3 td39"><P class="p3 ft3" contenteditable="true">7 kg</P></td>
+    </tr>
   </tbody>
   </table>
 </div>
 </div>
     <table cellpadding=0 cellspacing=0 class="t2">
-    <TR>
-      <TD class="tr8 td29"><P class="p8 ft3">Prepared by:</P></TD>
-      <TD class="tr8 td30"><P class="p3 ft4"> </P></TD>
-      <TD class="tr8 td31"><P class="p3 ft4"> </P></TD>
-      <TD class="tr8 td32"><P class="p3 ft4"> </P></TD>
-      <TD class="tr8 td33"><P class="p3 ft4"> </P></TD>
-      <TD class="tr8 td41"><P class="p3 ft4"> </P></TD>
-      <TD class="tr8 td42"><P class="p4 ft3">Received by:</P></TD>
-    </TR>
-    <TR>
-      <TD colspan=2 class="tr8 td43"><P class="p8 ft5">LEA ANGELI B. HERNANDEZ (SGD)</P></TD>
-      <TD class="tr8 td44"><P class="p3 ft4"> </P></TD>
-      <TD class="tr9 td32"><P class="p3 ft4"> </P></TD>
-      <TD class="tr9 td33"><P class="p3 ft4"> </P></TD>
-      <TD class="tr9 td41"><P class="p3 ft4"> </P></TD>
-      <TD class="tr8 td45"><P class="p3 ft4"> </P></TD>
-    </TR>
-    <TR>
-      <TD class="tr2 td29"><P class="p8 ft3">General Manager</P></TD>
-      <TD class="tr2 td30"><P class="p3 ft4"> </P></TD>
-      <TD class="tr2 td31"><P class="p3 ft4"> </P></TD>
-      <TD class="tr2 td32"><P class="p3 ft4"> </P></TD>
-      <TD class="tr2 td33"><P class="p3 ft4"> </P></TD>
-      <TD class="tr2 td41"><P class="p3 ft4"> </P></TD>
-      <TD class="tr2 td42"><P class="p4 ft3">Date:</P></TD>
-    </TR>
+    <tr>
+      <td class="tr8 td29"><P class="p8 ft3">Prepared by:</P></td>
+      <td class="tr8 td30"><P class="p3 ft4"> </P></td>
+      <td class="tr8 td31"><P class="p3 ft4"> </P></td>
+      <td class="tr8 td32"><P class="p3 ft4"> </P></td>
+      <td class="tr8 td33"><P class="p3 ft4"> </P></td>
+      <td class="tr8 td41"><P class="p3 ft4"> </P></td>
+      <td class="tr8 td42"><P class="p4 ft3">Received by:</P></td>
+    </tr>
+    <tr>
+      <td colspan=2 class="tr8 td43"><P class="p8 ft5">LEA ANGELI B. HERNANDEZ (SGD)</P></td>
+      <td class="tr8 td44"><P class="p3 ft4"> </P></td>
+      <td class="tr9 td32"><P class="p3 ft4"> </P></td>
+      <td class="tr9 td33"><P class="p3 ft4"> </P></td>
+      <td class="tr9 td41"><P class="p3 ft4"> </P></td>
+      <td class="tr8 td45"><P class="p3 ft4"> </P></td>
+    </tr>
+    <tr>
+      <td class="tr2 td29"><P class="p8 ft3">General Manager</P></td>
+      <td class="tr2 td30"><P class="p3 ft4"> </P></td>
+      <td class="tr2 td31"><P class="p3 ft4"> </P></td>
+      <td class="tr2 td32"><P class="p3 ft4"> </P></td>
+      <td class="tr2 td33"><P class="p3 ft4"> </P></td>
+      <td class="tr2 td41"><P class="p3 ft4"> </P></td>
+      <td class="tr2 td42"><P class="p4 ft3">Date:</P></td>
+    </tr>
     </TABLE>
 
 <br>

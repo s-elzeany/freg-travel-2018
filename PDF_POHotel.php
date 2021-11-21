@@ -5,7 +5,7 @@ session_start();
       #clearbtn{ visibility:hidden;}
       #clearTD{ visibility:hidden;}
     </style>";
-  }elseif($_SESSION['user'] =="LeaAngelyne"){
+  }elseif($_SESSION['user'] =="BlueSho"){
 
     }
   else{
@@ -209,90 +209,90 @@ session_start();
       $today = date("F j, Y");
         ?>
         <p hidden id="dateToday"><?php echo $today?></p>
-    <TR>
-    	<TD class="tr0 td0"><P class="p5 ft3" contenteditable="true">Date</P></TD>
-    	<TD class="tr0 td1"><P class="p6 ft4">:</P></TD>
-    	<TD class="tr0 td2"><P class="p7 ft4" contenteditable="true"><?php echo $today?></P></TD>
-    </TR>
-    <TR>
-    	<TD class="tr1 td0"><P class="p5 ft3" contenteditable="true">To</P></TD>
-    	<TD class="tr1 td1"><P class="p6 ft4">:</P></TD>
-    	<TD class="tr1 td2"><P class="p7 ft4" contenteditable="true"></P></TD>
-    </TR>
-    <TR>
-    	<TD class="tr1 td0"><P class="p5 ft3" contenteditable="true">Attention</P></TD>
-    	<TD class="tr1 td1"><P class="p6 ft4">:</P></TD>
-    	<TD class="tr1 td2"><P class="p7 ft4" contenteditable="true"></P></TD>
-    </TR>
-    <TR>
-    	<TD class="tr2 td0"><P class="p5 ft3" contenteditable="true">Travel date</P></TD>
-    	<TD class="tr2 td1"><P class="p6 ft4">:</P></TD>
-    	<TD class="tr2 td2"><P class="p7 ft4" contenteditable="true"></P></TD>
-    </TR>
-    <TR>
-      <TD class="tr2 td0"><P class="p5 ft3" contenteditable="true">Rooms</P></TD>
-      <TD class="tr2 td1"><P class="p6 ft4">:</P></TD>
-      <TD class="tr2 td2"><P class="p7 ft4" contenteditable="true"></P></TD>
-    </TR>
-    <TR>
-      <TD class="tr2 td0"><P class="p5 ft3" contenteditable="true">No. of pax</P></TD>
-      <TD class="tr2 td1"><P class="p6 ft4">:</P></TD>
-      <TD class="tr2 td2"><P class="p7 ft4" contenteditable="true"></P></TD>
-    </TR>
-    <TR>
-      <TD class="tr2 td0"><P class="p5 ft3" contenteditable="true">Lead Guest Name</P></TD>
-      <TD class="tr2 td1"><P class="p6 ft4">:</P></TD>
-      <TD class="tr2 td2"><P class="p7 ft4" contenteditable="true" id="Cname"></P></TD>
-    </TR>
+    <tr>
+    	<td class="tr0 td0"><P class="p5 ft3" contenteditable="true">Date</P></td>
+    	<td class="tr0 td1"><P class="p6 ft4">:</P></td>
+    	<td class="tr0 td2"><P class="p7 ft4" contenteditable="true"><?php echo $today?></P></td>
+    </tr>
+    <tr>
+    	<td class="tr1 td0"><P class="p5 ft3" contenteditable="true">To</P></td>
+    	<td class="tr1 td1"><P class="p6 ft4">:</P></td>
+    	<td class="tr1 td2"><P class="p7 ft4" contenteditable="true"></P></td>
+    </tr>
+    <tr>
+    	<td class="tr1 td0"><P class="p5 ft3" contenteditable="true">Attention</P></td>
+    	<td class="tr1 td1"><P class="p6 ft4">:</P></td>
+    	<td class="tr1 td2"><P class="p7 ft4" contenteditable="true"></P></td>
+    </tr>
+    <tr>
+    	<td class="tr2 td0"><P class="p5 ft3" contenteditable="true">Travel date</P></td>
+    	<td class="tr2 td1"><P class="p6 ft4">:</P></td>
+    	<td class="tr2 td2"><P class="p7 ft4" contenteditable="true"></P></td>
+    </tr>
+    <tr>
+      <td class="tr2 td0"><P class="p5 ft3" contenteditable="true">Rooms</P></td>
+      <td class="tr2 td1"><P class="p6 ft4">:</P></td>
+      <td class="tr2 td2"><P class="p7 ft4" contenteditable="true"></P></td>
+    </tr>
+    <tr>
+      <td class="tr2 td0"><P class="p5 ft3" contenteditable="true">No. of pax</P></td>
+      <td class="tr2 td1"><P class="p6 ft4">:</P></td>
+      <td class="tr2 td2"><P class="p7 ft4" contenteditable="true"></P></td>
+    </tr>
+    <tr>
+      <td class="tr2 td0"><P class="p5 ft3" contenteditable="true">Lead Guest Name</P></td>
+      <td class="tr2 td1"><P class="p6 ft4">:</P></td>
+      <td class="tr2 td2"><P class="p7 ft4" contenteditable="true" id="Cname"></P></td>
+    </tr>
 
   </TABLE>
     <TABLE cellpadding=0 cellspacing=0 class="t2">
-    <TR>
-    	<TD class="tr8 td22"><P class="p5 ft5"></P></TD>
-    	<TD colspan=2 class="tr8 td23"><P class="p10 ft9" contenteditable="true">FLIGHT DETAILS:</P></TD>
-    	<TD class="tr8 td50"><P class="p5 ft5"></P></TD>
-    	<TD class="tr8 td51"><P class="p5 ft5"></P></TD>
-    	<TD class="tr8 td52"><P class="p5 ft5"></P></TD>
-    	<TD class="tr8 td51"><P class="p5 ft5"></P></TD>
-    	<TD class="tr8 td53"><P class="p5 ft5"></P></TD>
-    	<TD class="tr8 td54"><P class="p5 ft5"></P></TD>
-    	<TD class="tr8 td10"><P class="p5 ft5"><a href="javascript:void(0);" style="font-size:18px;" id="addMoreFlightD" title="Add More Flight details"><i style=" margin-right:-21px;" class="fas fa-plus pull-right"></i></a></P></TD>
-    </TR>
+    <tr>
+    	<td class="tr8 td22"><P class="p5 ft5"></P></td>
+    	<td colspan=2 class="tr8 td23"><P class="p10 ft9" contenteditable="true">FLIGHT DETAILS:</P></td>
+    	<td class="tr8 td50"><P class="p5 ft5"></P></td>
+    	<td class="tr8 td51"><P class="p5 ft5"></P></td>
+    	<td class="tr8 td52"><P class="p5 ft5"></P></td>
+    	<td class="tr8 td51"><P class="p5 ft5"></P></td>
+    	<td class="tr8 td53"><P class="p5 ft5"></P></td>
+    	<td class="tr8 td54"><P class="p5 ft5"></P></td>
+    	<td class="tr8 td10"><P class="p5 ft5"><a href="javascript:void(0);" style="font-size:18px;" id="addMoreFlightD" title="Add More Flight details"><i style=" margin-right:-21px;" class="fas fa-plus pull-right"></i></a></P></td>
+    </tr>
       </TABLE>
         <TABLE cellpadding=0 cellspacing=0 class="t2" id="t2">
-    <TR>
-    	<TD class="tr10 td22"><P class="p5 ft10"></P></TD>
-    	<TD class="tr11 td29"><P class="p5 ft11"></P></TD>
-    	<TD class="tr11 td30"><P class="p5 ft11"></P></TD>
-    	<TD class="tr11 td31"><P class="p5 ft11"></P></TD>
-    	<TD class="tr11 td32"><P class="p5 ft11"></P></TD>
-    	<TD colspan=2 class="tr11 td33"><P class="p5 ft11"></P></TD>
-    	<TD class="tr11 td34"><P class="p5 ft11"></P></TD>
-    	<TD class="tr11 td35"><P class="p5 ft11"></P></TD>
-    	<TD class="tr11 td36"><P class="p5 ft11"></P></TD>
-    </TR>
-    <TR>
-    	<TD class="tr12 td22"><P class="p5 ft5"></P></TD>
-    	<TD class="tr13 td37"><P class="p10 ft12">Route</P></TD>
-    	<TD class="tr13 td38"><P class="p11 ft12">Airline - Flight</P></TD>
-    	<TD class="tr13 td39"><P class="p5 ft5"> </P></TD>
-    	<TD class="tr13 td40"><P class="p5 ft12">Date</P></TD>
-    	<TD colspan=2 class="tr13 td41"><P class="p5 ft12">Departure</P></TD>
-    	<TD class="tr13 td42"><P class="p5 ft5"></P></TD>
-    	<TD class="tr13 td43"><P class="p5 ft12">Arrival</P></TD>
-    	<TD class="tr13 td44"><P class="p5 ft5"></P></TD>
-    </TR>
-    <TR>
-    	<TD class="tr14 td22"><P class="p5 ft5"></P></TD>
-    	<TD class="tr14 td45"><P class="p10 ft0" contenteditable="true"></P></TD>
-    	<TD class="tr14 td46"><P class="p11 ft0" contenteditable="true"></P></TD>
-    	<TD class="tr14 td24"><P class="p5 ft5"></P></TD>
-    	<TD class="tr14 td25"><P class="p5 ft0" contenteditable="true"></P></TD>
-    	<TD colspan=2 class="tr14 td47"><P class="p5 ft0" contenteditable="true"></P></TD>
-    	<TD class="tr14 td27"><P class="p5 ft5"><a href="javascript:void(0);" class="remove_flights"><i style="font-size:18px" class="fas fa-times"></i></a></P></TD>
-    	<TD class="tr14 td28"><P class="p5 ft0" contenteditable="true"></P></TD>
-    	<TD class="tr14 td10"><P class="p5 ft5"></P></TD>
-    </TR>
+    <tr>
+    	<td class="tr10 td22"><P class="p5 ft10"></P></td>
+    	<td class="tr11 td29"><P class="p5 ft11"></P></td>
+    	<td class="tr11 td30"><P class="p5 ft11"></P></td>
+    	<td class="tr11 td31"><P class="p5 ft11"></P></td>
+    	<td class="tr11 td32"><P class="p5 ft11"></P></td>
+    	<td colspan=2 class="tr11 td33"><P class="p5 ft11"></P></td>
+    	<td class="tr11 td34"><P class="p5 ft11"></P></td>
+    	<td class="tr11 td35"><P class="p5 ft11"></P></td>
+    	<td class="tr11 td36"><P class="p5 ft11"></P></td>
+    </tr>
+    <tr>
+    	<td class="tr12 td22"><P class="p5 ft5"></P></td>
+    	<td class="tr13 td37"><P class="p10 ft12">Route</P></td>
+    	<td class="tr13 td38"><P class="p11 ft12">Airline - Flight</P></td>
+    	<td class="tr13 td39"><P class="p5 ft5"> </P></td>
+    	<td class="tr13 td40"><P class="p5 ft12">Date</P></td>
+    	<td colspan=2 class="tr13 td41"><P class="p5 ft12">Departure</P></td>
+    	<td class="tr13 td42"><P class="p5 ft5"></P></td>
+    	<td class="tr13 td43"><P class="p5 ft12">Arrival</P></td>
+    	<td class="tr13 td44"><P class="p5 ft5"></P></td>
+    </tr>
+    <tr>
+    	<td class="tr14 td22"><P class="p5 ft5"></P></td>
+    	<td class="tr14 td45"><P class="p10 ft0" contenteditable="true"></P></td>
+    	<td class="tr14 td46"><P class="p11 ft0" contenteditable="true"></P></td>
+    	<td class="tr14 td24"><P class="p5 ft5"></P></td>
+    	<td class="tr14 td25"><P class="p5 ft0" contenteditable="true"></P></td>
+    	<td colspan=2 class="tr14 td47"><P class="p5 ft0" contenteditable="true"></P></td>
+    	<td class="tr14 td27"><P class="p5 ft5"><a href="javascript:void(0);" class="remove_flights"><i style="font-size:18px" class="fas fa-times"></i></a></P></td>
+    	<td class="tr14 td28"><P class="p5 ft0" contenteditable="true"></P></td>
+    	<td class="tr14 td10"><P class="p5 ft5"></P></td>
+    </tr>
     </TABLE>
     <P class="p12 ft14" contenteditable="true">Thank you very much!</P>
     <P class="p13 ft9" contenteditable="true">Kate Aljama</P>
